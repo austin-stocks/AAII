@@ -41,12 +41,12 @@ do
       echo "Commiting the Yearly files that start with ==> [$chrs][$chrs_subloop]*"
       ## git commit -m "Updating" Yearly/[$chrs][$chrs_subloop]*.xlsx -v
       git commit -m "Updating" ../AAII_Financials/Yearly/[$chrs][$chrs_subloop]*.xlsx -v
-	    git push
+	  git push
       echo ""
       echo "Commiting Quarterly files that start with ==> [$chrs][$chrs_subloop]*"
       ## git commit -m "Updating" Quarterly/[$chrs][$chrs_subloop]*.xlsx -v
       git commit -m "Updating" ../AAII_Financials/Quarterly/[$chrs][$chrs_subloop]*.xlsx -v
-	    git push
+	  git push
       echo ""
     done
 	# Sometimes you have the file like A.xlsx
@@ -55,12 +55,12 @@ do
     echo "Commiting the Yearly files that start with ==> [$chrs]*"
     ## git commit -m "Updating" Yearly/[$chrs]*.xlsx -v
     git commit -m "Updating" ../AAII_Financials/Yearly/[$chrs]*.xlsx -v
-	  git push 
+	git push 
     echo ""
     echo "Commiting Quarterly files that start with ==> [$chrs]*"
     ## git commit -m "Updating" Quarterly/[$chrs]*.xlsx -v
     git commit -m "Updating" ../AAII_Financials/Quarterly/[$chrs]*.xlsx -v
-	  git push
+	git push
     echo ""
   fi 
 done
