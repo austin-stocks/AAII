@@ -1,5 +1,5 @@
 curr_dir=`pwd`
-dir_name='2024_12_07'
+dir_name='2025_03_23'
 
 echo "The directory name : $dir_name"
 aaii_datafilename="${dir_name}_AAII_DATA.xlsm"
