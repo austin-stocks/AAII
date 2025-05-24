@@ -5,7 +5,7 @@ alphabets_subloop='A B C D E F G H I J K L M N O P Q R S T U V W X Y Z'
 
 for chrs in $alphabets
 do
-  if  [ $chrs = "A" ] || [ $chrs = "B" ] || [ $chrs = "C" ] || [ $chrs = "M" ] || [ $chrs = "P" ]
+  if  [ $chrs = "A" ] || [ $chrs = "B" ] || [ $chrs = "C" ] || [ $chrs = "M" ] || [ $chrs = "P" ] || [ $chrs = "S" ]
   then
     echo "Doing [$chrs]...Will loop through subloop"
     for chrs_subloop in $alphabets_subloop
